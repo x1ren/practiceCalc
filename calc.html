@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel = "stylesheet" href="/practice2/calc.css"></link>
+</head>
+<body id="Outerbox">
+    <div id = "Box">
+        <div id="bushit">
+        <h2 id="header"></h2>
+        </div>
+         <div id="opra">
+            <div id="op">
+
+                <button class = "Plus" onclick="inputAnswer('+')">+</button>
+                <button class = "Minus Plus" onclick="inputAnswer('-')">-</button>
+                <button class = "Multiplication Plus" onclick="inputAnswer('*')" >X</button>
+                <button class = "Divide Plus" onclick="inputAnswer('/')">/</button>
+                <button class = "equals Plus"  onclick="equals('=')">=</button>
+            </div>
+            
+            <button class = "C Plus operator" onclick="initialize()">C</button>
+            <button class = "sign Plus operator" onclick="inputAnswer('-')">-/+</button>
+            <button class = "percent Plus operator" onclick="inputAnswer('%')">%</button>
+
+            <button class = "one one " onclick="inputAnswer(1)">1</button>
+            <button class = "two one" onclick="inputAnswer(2,null)">2</button>
+            <button class = "three one"  onclick="inputAnswer(3)">3</button>
+            <button class = "four one" onclick="inputAnswer(4)">4</button>
+            <button class = "five one" onclick="inputAnswer(5)">5</button>
+            <button class = "six one" onclick="inputAnswer(6)">6</button>
+            <button class = "seven one" onclick="inputAnswer(7)">7</button>
+            <button class = "eight one" onclick="inputAnswer(8)">8</button>
+            <button class = "nine one" onclick="inputAnswer(9)">9</button>
+            <button class = "ten one" onclick="inputAnswer(0)">0</button>
+            <button class = "dot one" onclick="inputAnswer('.')">.</button>
+            <button id="ac" class = "bruh one" onclick="erase()">AC</button>
+            
+        </div>
+
+    </div>
+   
+    <script src="calc.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.0.0/math.min.js"></script>
+
+</body>
+
+</html>

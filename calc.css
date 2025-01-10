@@ -1,0 +1,118 @@
+#Outerbox{
+    height: 100vh;             
+    margin: 0;                 
+    display: flex;             
+    justify-content: center;   
+    align-items: center;  
+    
+    
+    
+    
+}
+
+
+#Box{
+    background-color:black;
+    padding: 20px;
+    border-radius: 10px;
+    width: 320px;
+    height: 580px;
+    margin: 50px;
+    position: relative;
+    border-radius: 5%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    padding-left: 20px;
+    overflow: hidden;
+   
+    
+    
+
+}
+#op{
+    
+    width: 40px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 15px;
+    padding-bottom: 32px;
+
+}
+
+
+.Plus{
+
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border: 10px;
+    padding: 10px;
+    background-color: orange;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+
+}
+
+.operator{
+    background-color: rgb(125, 122, 122);
+    color: white;
+}
+    
+
+
+
+.one{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border: 10px;
+    padding: 10px;
+    font-size: 30px;
+    background-color: rgb(75, 74, 74);
+    color: white;
+
+}
+
+#opra{
+    display: inline-block;
+    position: absolute;
+    width: 300px;
+    bottom: 0;
+    padding-bottom: 30px;
+    
+}
+#bushit{
+
+    position: fixed;        
+    display: block;
+    height: 170px;
+    
+    width: 320px;
+    
+}
+
+#header{
+   
+
+    
+    color: rgb(207, 205, 205);
+    padding-top: 50px;
+    justify-content: left;
+    margin: 15px;
+    font-size: 50px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 60px;
+    padding-right: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 400;
+    
+}
+
+#ac{
+    font-size: 20px;
+}
